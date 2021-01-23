@@ -1,3 +1,5 @@
+// downrange.ks
+
 clearScreen.
 
 set KSClng to ship:geoposition:LNG.
