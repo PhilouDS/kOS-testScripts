@@ -16,7 +16,7 @@ print round(KSClng,2) at (0,2).
 
 wait until ship:altitude > 1000.
 
-until ship:velocity:orbit:mag > 3000 {
+until ship:velocity:orbit:mag > 3000 { // 3000 is a big velocity to ensure distance will always be printed during my test.
   print round(shiplng,2) + ("    ") at (0,3).
   if distance > 1000 {
     print round(distance/1000,2) + ("   ") at (0,5).
