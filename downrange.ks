@@ -1,4 +1,4 @@
-// downrange.ks
+// downrange.ks -- /!\ Only for equatorial orbits!
 
 clearScreen.
 
